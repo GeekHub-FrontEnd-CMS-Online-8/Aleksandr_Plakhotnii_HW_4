@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    font-family: 'Lato';
+   /* width: 2000px;*/
+}
+
+header {
+    background: url("img/bg-header.png") no-repeat;
+}
+
+#wr-cookies {
+    background: url("img/bg-cookies.jpg");
+}
+
+#warning-about-cookies {
+    width: 575px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 14px;
+}
+
+#warning-about-cookies p {
+    float: left;
+    margin: 27px 0;
+}
+
+#warning-about-cookies input {
+    float: right;
+    color: #194277;
+    padding: 12px 38px;
+    background: #fff;
+    border-radius: 20px;
+    margin: 14px 0;
+    border: none;
+    font-size: 14px;
+}
+
+nav button {
+    background: none;
+    border: none;
+    float: right;
+    margin-top: 30px;
+}
+
+header nav, #wr-expert-in, #wr-latest-works, #wr-clients, #wr-footer {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.portfolio-img {
+    width: 185px;
+    height: 185px;
+    border-radius: 50%;
+    background: #fff;
+    margin: 50px auto 0;
+}
+
+#circle {
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 60px auto;
+    box-shadow: 0 0 0 8px #5397fe, 0 0 0 18px #428efe;
+}
+
+#welcome h5, #welcome h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 50px;
+    width: 836px;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+}
+
+#welcome h2 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 2;
+    margin-top: 30px;
+}
+
+#welcome .hire, #footer-content .hire {
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #3695ff;
+    background: #fff;
+    border-radius: 33px;
+    padding: 22px 67px;
+    width: 70px;
+    margin: 75px auto 0;
+    display: block;
+}
+
+#welcome .arrow {
+    width: 19px;
+    margin: 70px auto 0;
+    display: block;
+    padding-bottom: 22px;
+}
+h1, h5 {
+    font-size: 34px;
+    color: #3677fd;
+    text-align: center;
+    font-weight: normal;
+}
+
+#about-me h1 {
+    margin: 72px 0 43px;
+}
+
+#about-me p {
+    font-size: 16px;
+    color: #5a5a5a;
+    text-align: center;
+    width: 1070px;
+    margin: 0 auto 100px;
+}
+
+#expert-in {
+    background: url("img/bg-expert.jpg");
+}
+
+#expert-in h5 {
+    padding: 100px 0;
+}
+
+#expert-in .platform-selection, #latest-works-content .works {
+    width: 360px;
+    float: left;
+    margin-right: 30px;
+}
+
+.platform-selection a {
+    display: block;
+    width: 142px;
+    height: 142px;
+    margin: 0 auto;
+}
+
+.platform-selection h3 {
+    text-transform: uppercase;
+    color: #3677fd;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.platform-selection p {
+    font-size: 16px;
+    text-align: center;
+    color: #5a5a5a;
+    line-height: 2;
+    margin-top: 35px;
+}
+
+#expert-in-content {
+    margin-left: 15px;
+    padding-bottom: 100px;
+}
+
+#expert-in-content #platform-selection-3,
+#expert-in-content #platform-selection-6,
+#latest-works-content #example-3,#latest-works-content #example-6 {
+    margin-right: 15px;
+}
+
+#platform-selection-4, #platform-selection-5, #platform-selection-6 {
+    margin-top: 100px;
+}
+
+#latest-works-content h5 {
+    margin: 90px 0 100px;
+}
+
+#latest-works-content .works {
+    float: left;
+    width: 360px;
+    background: url("img/bg-works.jpg");
+}
+
+#latest-works-content .works a {
+    display: block;
+    width: 274px;
+    height: 235px;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+#latest-works-content .works #work-2,
+#latest-works-content .works #work-5 {
+    width: 160px;
+    height: 235px;
+    margin: 0 auto;
+}
+
+#latest-works-content {
+    margin-left: 15px;
+}
+
+#example-4, #example-5, #example-6 {
+    margin: 50px 0 190px;
+}
+
+#clients {
+    background: url("img/bg-expert.jpg");
+}
+
+#clients-center h5 {
+    padding-top: 100px;
+    margin-bottom: 70px;
+}
+
+#clients-center .clients-logo {
+    opacity: 0.2;
+    display: inline-block;
+}
+
+#clients-center .clients-logo img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#clients-center {
+    width: 1061px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+[alt~="IBM"]{
+    position: relative;
+    top: 10px;
+    margin-right: 123px;
+}
+
+[alt~="Samsung"]{
+    margin-right: 140px;
+}
+
+[alt~="Microsoft"]{
+    position: relative;
+    top: 7px;
+    margin-right: 90px;
+}
+
+[alt~="Google"]{
+    position: relative;
+    top: 15px;
+}
+
+footer {
+    background: url("img/bg-footer.jpg") no-repeat;
+}
+
+#footer-content {
+    margin: 0 15px;
+
+}
+
+#footer-content #hire-footer {
+    margin: 93px 0;
+}
+
+#footer-content h4 {
+    display: inline-block;
+    color: #fff;
+    font-size: 31px;
+    font-weight: normal;
+    margin-top: 110px;
+    letter-spacing: 3px;
+}
+
+#footer-content a {
+    float: right;
+}
+
+#footer-content h4 span {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
